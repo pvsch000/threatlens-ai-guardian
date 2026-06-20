@@ -1,4 +1,5 @@
-import { createFileRoute, useNavigate, useServerFn } from "@tanstack/react-router";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { ScanSearch, Loader2, Mail, MessageSquare, Link2, Briefcase, FileText } from "lucide-react";
 import { Card } from "@/components/ui/card";
